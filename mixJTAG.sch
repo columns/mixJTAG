@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -190,12 +190,12 @@
 <smd name="62" x="-2.7432" y="5.715" dx="0.2794" dy="1.4732" layer="1" rot="R180"/>
 <smd name="63" x="-3.2512" y="5.715" dx="0.2794" dy="1.4732" layer="1" rot="R180"/>
 <smd name="64" x="-3.7592" y="5.715" dx="0.2794" dy="1.4732" layer="1" rot="R180"/>
-<wire x1="-1.7526" y1="6.8072" x2="-1.7526" y2="7.8232" width="0.1524" layer="21"/>
-<wire x1="3.2766" y1="6.8072" x2="3.2766" y2="7.8232" width="0.1524" layer="21"/>
-<wire x1="6.8072" y1="-0.254" x2="7.7978" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="2.7178" y1="-6.8072" x2="2.7178" y2="-7.8232" width="0.1524" layer="21"/>
-<wire x1="-2.2606" y1="-6.8072" x2="-2.2606" y2="-7.8232" width="0.1524" layer="21"/>
-<wire x1="-6.8072" y1="-0.762" x2="-7.7978" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.7526" y1="6.8072" x2="-1.7526" y2="7.8232" width="0.1524" layer="51"/>
+<wire x1="3.2766" y1="6.8072" x2="3.2766" y2="7.8232" width="0.1524" layer="51"/>
+<wire x1="6.8072" y1="-0.254" x2="7.7978" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="2.7178" y1="-6.8072" x2="2.7178" y2="-7.8232" width="0.1524" layer="51"/>
+<wire x1="-2.2606" y1="-6.8072" x2="-2.2606" y2="-7.8232" width="0.1524" layer="51"/>
+<wire x1="-6.8072" y1="-0.762" x2="-7.7978" y2="-0.762" width="0.1524" layer="51"/>
 <wire x1="-4.2164" y1="5.1054" x2="-5.1054" y2="5.1054" width="0.1524" layer="21"/>
 <wire x1="-4.7752" y1="4.1402" x2="-4.1402" y2="4.7752" width="0.1524" layer="21"/>
 <wire x1="-5.1054" y1="-5.1054" x2="-4.2164" y2="-5.1054" width="0.1524" layer="21"/>
@@ -205,7 +205,7 @@
 <wire x1="-5.1054" y1="-4.2164" x2="-5.1054" y2="-5.1054" width="0.1524" layer="21"/>
 <wire x1="4.2164" y1="-5.1054" x2="5.1054" y2="-5.1054" width="0.1524" layer="21"/>
 <wire x1="5.1054" y1="4.2164" x2="5.1054" y2="5.1054" width="0.1524" layer="21"/>
-<text x="-7.6708" y="3.7338" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-7.6708" y="3.7338" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="3.6068" y1="5.1054" x2="3.8862" y2="5.1054" width="0" layer="51"/>
 <wire x1="3.8862" y1="5.1054" x2="3.8862" y2="6.096" width="0" layer="51"/>
 <wire x1="3.8862" y1="6.096" x2="3.6068" y2="6.096" width="0" layer="51"/>
@@ -470,7 +470,7 @@
 <wire x1="5.1054" y1="5.1054" x2="-5.1054" y2="5.1054" width="0" layer="51"/>
 <wire x1="-5.1054" y1="5.1054" x2="-5.1054" y2="-5.1054" width="0" layer="51"/>
 <text x="-7.6708" y="3.7338" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-6.604" y="6.604" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.524" y="1.524" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SIP">
@@ -1846,7 +1846,7 @@
 <smd name="42" x="-2.4" y="5.7" dx="0.5" dy="1.5" layer="1"/>
 <smd name="43" x="-3.2" y="5.7" dx="0.5" dy="1.5" layer="1"/>
 <smd name="44" x="-4" y="5.7" dx="0.5" dy="1.5" layer="1"/>
-<text x="-4.445" y="7.3025" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="1.5875" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="-6" y1="-1.8" x2="-4.8" y2="-1.4" layer="51"/>
 <rectangle x1="-6" y1="-1" x2="-4.8" y2="-0.6" layer="51"/>
@@ -10059,7 +10059,7 @@ http://www.bccomponents.com/</description>
 <wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
 <smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
 <smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
-<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="1.254" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
 <rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
@@ -14601,7 +14601,7 @@ Company Website:http://www.interquip.com/</description>
 <wire x1="2.5" y1="1.6" x2="2.5" y2="1.2" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.6" x2="2.5" y2="-1.2" width="0.127" layer="21"/>
-<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="2" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -15261,7 +15261,7 @@ Source: RS Component / Phycomp</description>
 <smd name="5" x="0" y="1.15" dx="0.6" dy="0.9" layer="1"/>
 <smd name="6" x="-0.95" y="1.15" dx="0.6" dy="0.9" layer="1"/>
 <text x="-1.397" y="-2.672" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.397" y="1.702" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.016" y="0.051" size="0.8128" layer="25" ratio="10" align="center-left">&gt;NAME</text>
 <rectangle x1="-1.2" y1="-1.4" x2="-0.7" y2="-0.8" layer="51"/>
 <rectangle x1="-0.25" y1="-1.4" x2="0.25" y2="-0.8" layer="51"/>
 <rectangle x1="0.7" y1="-1.4" x2="1.2" y2="-0.8" layer="51"/>
